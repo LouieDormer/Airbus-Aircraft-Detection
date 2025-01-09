@@ -1,1 +1,6 @@
-# Airbus-Aircraft-Detection
+## Airbus-Aircraft-Detection
+The dataset contains 109 images obtained by AirBus using the Pleiades satellite, each image has a size of 2560 x 2560 pixels (1280 x 1280 meters) and is stored in a JPEG format. The images were taken from various airports worldwide, some airports making repeat appearences at different acquisition dates and some images contain fog or clouds to diversify the dataset.
+### Annotations
+103 of the images have been annotated with bounding boxes which provide the locations of the aircraft in the imagery. The annotations are provided in .csv format containing the image filename, class of the aircraft differentiating between Aircraft and Truncated Aircraft for aircraft cut off by the image and the location of the aircrafts. 6 extra images do not have annotations and are designed to be used for evalutation of the trained models.
+### Method
+Two different methods have been used to detect and extract the airplanes from the provided images, a traditional non-neural network approach involving edge/corner detection and classical algorithms to detect the aircraft in the dataset, and a neural network approach using a pretrained PyTorch model, training the model on the data and comparing its results to the bounding boxes provided in the dataset. 
