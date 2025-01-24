@@ -40,6 +40,8 @@ The Airbus sample dataset contains **109** images obtained by AirBus using their
 | 80  | 2314c1b5-ec8f-4212-b42f-43365a13fd20.jpg    | [(1570, 0), (1695, 0), (1695, 73), (1570, 73), (1570, 0)]                                 | Truncated_airplane  |
 | 81  | 2314c1b5-ec8f-4212-b42f-43365a13fd20.jpg    | [(1602, 2513), (1724, 2513), (1724, 2559), (1602, 2559), (1602, 2513)]                    | Truncated_airplane  |
 
+The dataset can be downloaded from [here](https://www.kaggle.com/datasets/airbusgeo/airbus-aircrafts-sample-dataset/data)
+
 ## Dependency versions
 - numpy = 2.2.1
 - matplotlib = 3.10.0
