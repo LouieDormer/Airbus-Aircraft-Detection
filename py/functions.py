@@ -24,7 +24,6 @@ from torch.utils.data.sampler import SequentialSampler
 from matplotlib import pyplot as plt
 from sklearn.model_selection import train_test_split
 
-
 # Function to convert a string into a Python object
 def f(x):
     return ast.literal_eval(x.rstrip('\r\n'))
@@ -119,4 +118,3 @@ class Averager:
         """
         self.current_total = 0.0  # Reset the total sum to 0.
         self.iterations = 0.0    # Reset the iteration count to 0.
-
