@@ -1,58 +1,8 @@
-Name: Pandas
-Version: 2.2.3
-Summary: Powerful data structures for data analysis, time series, and statistics
-Home-page: https://pandas.pydata.org
-Author: 
-Author-email: The Pandas Development Team <pandas-dev@python.org>
-License: BSD 3-Clause License
-
-Name: Numpy
-Version: 2.2.1
-Summary: Fundamental package for array computing in Python
-Home-page: https://numpy.org/
-Author: Travis E. Oliphant et al.
-Author-email: 
-License: Copyright (c) 2005-2024, NumPy Developers.
-
-Name: matplotlib
-Version: 3.10.0
-Summary: Python plotting package
-Home-page: https://matplotlib.org/
-Author: John D. Hunter, Michael Droettboom
-Author-email: Unknown <matplotlib-users@python.org>
-License: License agreement for matplotlib versions 1.3.0 and later
- =========================================================
-
- 1. This LICENSE AGREEMENT is between the Matplotlib Development Team
- ("MDT"), and the Individual or Organization ("Licensee") accessing and
- otherwise using matplotlib software in source or binary form and its
- associated documentation.
-
- 2. Subject to the terms and conditions of this License Agreement, MDT
- hereby grants Licensee a nonexclusive, royalty-free, world-wide license
- to reproduce, analyze, test, perform and/or display publicly, prepare
- derivative works, distribute, and otherwise use matplotlib
- alone or in any derivative version, provided, however, that MDT's
- License Agreement and MDT's notice of copyright, i.e., "Copyright (c)
- 2012- Matplotlib Development Team; All Rights Reserved" are retained in
- matplotlib  alone or in any derivative version prepared by
- Licensee.
-
- 3. In the event Licensee prepares a derivative work that is based on or
-...
-
-Name: pillow
-Version: 11.1.0
-Summary: Python Imaging Library (Fork)
-Home-page: https://pypi.org/project/pillow/
-Author: 
-Author-email: "Jeffrey A. Clark" <aclark@aclark.net>
-License: MIT-CMU
-
-Name: opencv-python
-Version: 4.10.0.84
-Summary: Wrapper package for OpenCV python bindings.
-Home-page: https://github.com/opencv/opencv-python
-Author: 
-Author-email: 
-License: Apache 2.0
+numpy
+matplotlib
+opencv-python
+pillow
+albumentations
+torch
+torchvision
+sklearn
