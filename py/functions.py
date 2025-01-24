@@ -18,7 +18,6 @@ from torchvision.models.detection import FasterRCNN
 from torchvision.models.detection.rpn import AnchorGenerator
 from torchvision.models import resnet50, ResNet50_Weights
 
-
 from torch.utils.data import DataLoader, Dataset
 from torch.utils.data.sampler import SequentialSampler
 
@@ -119,4 +118,3 @@ class Averager:
         """
         self.current_total = 0.0  # Reset the total sum to 0.
         self.iterations = 0.0    # Reset the iteration count to 0.
-
